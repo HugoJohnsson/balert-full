@@ -1,0 +1,40 @@
+
+/* Login container */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f7f8fa;
+}
+
+.login-container .login-form {
+  background-color: #fff;
+  padding: 1.8rem 3rem;
+  border-radius: 1px;
+}
+
+/* Create */
+.create-section .uk-container {
+  padding-bottom: 7rem;
+}
+
+.settings {
+  padding-top: 2rem;
+}
+
+.save {
+  padding: 5rem 0;
+}
+
+
+@media (max-width:800px) {
+  .btn-contact-us {
+    align-items: start!important;
+    flex-direction: column;
+  }
+
+  .btn-contact-us .nav-link {
+    padding: 15px 0!important;
+  }
+}
